@@ -1,4 +1,4 @@
-runtimeInMinutes: 15
+runtimeInMinutes: 20
 dbtProjectPath: "./dbt"
 env:
   POSTGRES_HOST: "fraud-results-db"
