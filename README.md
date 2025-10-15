@@ -1,12 +1,17 @@
 ---
 title: "Real-time Fraud Detection Assessment"
+author: "Nurburg Team"
+authorLink: "https://nurburg.dev"
+authorTitle: "Platform Engineers"
+summary: "Build a real-time fraud detection system that processes e-commerce events and identifies fraudulent patterns using data engineering best practices"
+publishedOn: 2024-01-15
+published: true
 tags:
   - kafka
   - snowflake
   - postgresql
   - dbt
   - fraud-detection
-summary: "Build a real-time fraud detection system that processes e-commerce events and identifies fraudulent patterns using data engineering best practices"
 ---
 
 # Real-time Fraud Detection Assessment
