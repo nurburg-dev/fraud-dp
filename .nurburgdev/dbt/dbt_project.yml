@@ -1,0 +1,13 @@
+name: 'fraud_validation'
+version: '1.0.0'
+config-version: 2
+
+profile: 'fraud_validation'
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
+models:
+  fraud_validation:
+    +materialized: table
+    validation:
+      +materialized: table

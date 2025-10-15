@@ -1,0 +1,6 @@
+name: fraud-results-db
+cpuCores: 1
+memoryMB: 512
+dbName: fraud_results
+user: postgres
+password: fraud_password

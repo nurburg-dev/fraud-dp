@@ -1,0 +1,71 @@
+user_id,fraud_type,should_detect,description,pattern_details
+velocity_fraud_user_001,velocity_fraud,True,User velocity_fraud_user_001 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_002,velocity_fraud,True,User velocity_fraud_user_002 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_003,velocity_fraud,True,User velocity_fraud_user_003 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_004,velocity_fraud,True,User velocity_fraud_user_004 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_005,velocity_fraud,True,User velocity_fraud_user_005 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_006,velocity_fraud,True,User velocity_fraud_user_006 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_007,velocity_fraud,True,User velocity_fraud_user_007 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_008,velocity_fraud,True,User velocity_fraud_user_008 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_009,velocity_fraud,True,User velocity_fraud_user_009 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_010,velocity_fraud,True,User velocity_fraud_user_010 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_011,velocity_fraud,True,User velocity_fraud_user_011 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_012,velocity_fraud,True,User velocity_fraud_user_012 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_013,velocity_fraud,True,User velocity_fraud_user_013 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_014,velocity_fraud,True,User velocity_fraud_user_014 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_015,velocity_fraud,True,User velocity_fraud_user_015 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_016,velocity_fraud,True,User velocity_fraud_user_016 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_017,velocity_fraud,True,User velocity_fraud_user_017 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_018,velocity_fraud,True,User velocity_fraud_user_018 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_019,velocity_fraud,True,User velocity_fraud_user_019 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+velocity_fraud_user_020,velocity_fraud,True,User velocity_fraud_user_020 performed >10 purchases in 1 minute,High frequency purchasing within 60 seconds
+geo_fraud_user_001,geographic_fraud,True,User geo_fraud_user_001 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_002,geographic_fraud,True,User geo_fraud_user_002 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_003,geographic_fraud,True,User geo_fraud_user_003 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_004,geographic_fraud,True,User geo_fraud_user_004 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_005,geographic_fraud,True,User geo_fraud_user_005 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_006,geographic_fraud,True,User geo_fraud_user_006 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_007,geographic_fraud,True,User geo_fraud_user_007 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_008,geographic_fraud,True,User geo_fraud_user_008 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_009,geographic_fraud,True,User geo_fraud_user_009 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_010,geographic_fraud,True,User geo_fraud_user_010 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_011,geographic_fraud,True,User geo_fraud_user_011 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_012,geographic_fraud,True,User geo_fraud_user_012 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_013,geographic_fraud,True,User geo_fraud_user_013 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_014,geographic_fraud,True,User geo_fraud_user_014 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+geo_fraud_user_015,geographic_fraud,True,User geo_fraud_user_015 logged in from new country and made immediate purchase,Login from new country + purchase within 5 minutes
+normal_user_001,normal_user,False,User normal_user_001 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_002,normal_user,False,User normal_user_002 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_003,normal_user,False,User normal_user_003 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_004,normal_user,False,User normal_user_004 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_005,normal_user,False,User normal_user_005 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_006,normal_user,False,User normal_user_006 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_007,normal_user,False,User normal_user_007 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_008,normal_user,False,User normal_user_008 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_009,normal_user,False,User normal_user_009 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_010,normal_user,False,User normal_user_010 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_011,normal_user,False,User normal_user_011 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_012,normal_user,False,User normal_user_012 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_013,normal_user,False,User normal_user_013 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_014,normal_user,False,User normal_user_014 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_015,normal_user,False,User normal_user_015 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_016,normal_user,False,User normal_user_016 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_017,normal_user,False,User normal_user_017 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_018,normal_user,False,User normal_user_018 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_019,normal_user,False,User normal_user_019 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_020,normal_user,False,User normal_user_020 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_021,normal_user,False,User normal_user_021 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_022,normal_user,False,User normal_user_022 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_023,normal_user,False,User normal_user_023 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_024,normal_user,False,User normal_user_024 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_025,normal_user,False,User normal_user_025 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_026,normal_user,False,User normal_user_026 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_027,normal_user,False,User normal_user_027 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_028,normal_user,False,User normal_user_028 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_029,normal_user,False,User normal_user_029 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+normal_user_030,normal_user,False,User normal_user_030 has normal purchase patterns,"Regular purchase behavior, no fraud indicators"
+edge_case_user_001,edge_case,False,User edge_case_user_001 has borderline behavior patterns,Near threshold behavior but within normal limits
+edge_case_user_002,edge_case,False,User edge_case_user_002 has borderline behavior patterns,Near threshold behavior but within normal limits
+edge_case_user_003,edge_case,False,User edge_case_user_003 has borderline behavior patterns,Near threshold behavior but within normal limits
+edge_case_user_004,edge_case,False,User edge_case_user_004 has borderline behavior patterns,Near threshold behavior but within normal limits
+edge_case_user_005,edge_case,False,User edge_case_user_005 has borderline behavior patterns,Near threshold behavior but within normal limits

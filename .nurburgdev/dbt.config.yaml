@@ -1,0 +1,9 @@
+runtimeInMinutes: 15
+dbtProjectPath: "./dbt"
+env:
+  POSTGRES_HOST: "fraud-results-db"
+  POSTGRES_DATABASE: "fraud_results"
+  POSTGRES_USER: "postgres"
+  POSTGRES_PASSWORD: "fraud_password"
+  POSTGRES_PORT: "5432"
+  POSTGRES_SCHEMA: "public"

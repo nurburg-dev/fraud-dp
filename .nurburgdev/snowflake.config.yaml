@@ -1,0 +1,10 @@
+name: fraud-warehouse
+cpuCores: 1
+memoryMB: 1024
+account: "{{ .SNOWFLAKE_ACCOUNT }}"
+user: "{{ .SNOWFLAKE_USER }}"
+password: "{{ .SNOWFLAKE_PASSWORD }}"
+database: "FRAUD_DETECTION"
+schema: "EVENTS"
+warehouse: "COMPUTE_WH"
+role: "ACCOUNTADMIN"

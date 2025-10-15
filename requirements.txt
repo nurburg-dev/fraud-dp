@@ -1,0 +1,28 @@
+# FastAPI Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Kafka Dependencies
+kafka-python==2.0.2
+
+# Database Dependencies
+psycopg2-binary==2.9.7
+snowflake-connector-python==3.5.0
+redis==4.6.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Development/Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Logging
+colorlog==6.8.0
