@@ -1,0 +1,7 @@
+name: "fraud-events-kafka"
+cpuCores: 2
+memoryMB: 1024
+clusterId: "fraud-detection-cluster"
+autoCreateTopics: true
+logRetentionHours: 168  # 7 days for event history
+jvmHeapMB: 768

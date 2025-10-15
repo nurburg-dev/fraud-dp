@@ -1,0 +1,21 @@
+name: "fraud-detection-service"
+directory: "./fraud_detection"
+cpuCores: 2
+memoryMB: 1024
+instances: 1
+port: 8080
+runtime: "python"
+env:
+  KAFKA_BOOTSTRAP_SERVERS: "fraud-events-kafka:9092"
+  KAFKA_TOPIC: "ecommerce-events"
+  POSTGRES_HOST: "fraud-results-db"
+  POSTGRES_DATABASE: "fraud_results"
+  POSTGRES_USER: "postgres"
+  POSTGRES_PASSWORD: "fraud_password"
+  POSTGRES_PORT: "5432"
+  SNOWFLAKE_ACCOUNT: "your-account.region"
+  SNOWFLAKE_USER: "fraud_user"
+  SNOWFLAKE_PASSWORD: "fraud_password"
+  SNOWFLAKE_DATABASE: "FRAUD_DETECTION"
+  SNOWFLAKE_SCHEMA: "EVENTS"
+  SNOWFLAKE_WAREHOUSE: "COMPUTE_WH"
