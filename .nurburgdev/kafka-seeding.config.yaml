@@ -1,0 +1,4 @@
+- targetName: "fraud-events-kafka"
+  relativePath: "ecommerce_events.csv"
+  storedDataset: "ecommerce_events.csv"
+  isS3: true

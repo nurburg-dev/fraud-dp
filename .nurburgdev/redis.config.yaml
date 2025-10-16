@@ -1,0 +1,5 @@
+name: "fraud-cache-redis"
+cpuCores: 1
+memoryMB: 512
+followers: 0  # Single instance for simplicity
+password: "fraud_redis_password"
