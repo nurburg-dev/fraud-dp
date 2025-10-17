@@ -15,7 +15,6 @@ tags:
 ---
 
 # Real-time Fraud Detection Assessment
-
 ## Overview
 
 You are tasked with implementing a **real-time fraud detection system** for an e-commerce platform. This challenge tests your ability to:
