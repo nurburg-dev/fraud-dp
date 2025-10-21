@@ -1,1 +1,1 @@
-web: pip install -r requirements.txt && cp .env.prod .env && uvicorn main:app --host 0.0.0.0 --port 8000
+web: apk update --no-check-certificate && apk add --no-cache build-base libffi-dev openssl-dev libc-dev linux-headers  --no-check-certificate && pip install --upgrade pip && pip install -r requirements.txt && cp .env.dev .env && uvicorn main:app --host 0.0.0.0 --port 8000
