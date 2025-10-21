@@ -1,6 +1,6 @@
 name: "fraud-detection-service"
 directory: "./fraud_detection"
-cpuCores: 2
+cpuCores: 1
 memoryMB: 1024
 instances: 1
 port: 8080
