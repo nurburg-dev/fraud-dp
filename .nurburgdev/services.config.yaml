@@ -1,5 +1,5 @@
 name: "fraud-detection-service"
-directory: "./fraud_detection"
+directory: "./"
 cpuCores: 1
 memoryMB: 1024
 instances: 1

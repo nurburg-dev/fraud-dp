@@ -12,9 +12,6 @@ psycopg2-binary==2.9.7
 snowflake-connector-python==4.0.0
 redis==4.6.0
 
-# Data Processing
-pandas==2.1.4
-numpy==1.24.3
 
 # Utilities
 python-dateutil==2.8.2
