@@ -2,4 +2,4 @@ relativePath: ./fraud_detections_init.sql
 targetName: fraud-results-db
 ---
 targetName: "fraud-events-kafka"
-storedDataset: "sample-fraud-events.jsonl"
+storedDataset: "https://s3.us-east-1.amazonaws.com/nurburg-fraud-assessment/sample-fraud-events.jsonl"
