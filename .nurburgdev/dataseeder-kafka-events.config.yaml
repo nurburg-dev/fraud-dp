@@ -1,2 +1,0 @@
-targetName: "fraud-events-kafka"
-storedDataset: "sample-fraud-events.jsonl"

@@ -1,2 +1,5 @@
 relativePath: ./fraud_detections_init.sql
 targetName: fraud-results-db
+---
+targetName: "fraud-events-kafka"
+storedDataset: "sample-fraud-events.jsonl"
