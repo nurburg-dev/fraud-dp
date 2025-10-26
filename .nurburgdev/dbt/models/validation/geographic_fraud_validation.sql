@@ -18,7 +18,7 @@ validation_metrics AS (
   SELECT 
     COUNT(*) as total_geographic_cases,
     COUNT(cgd.user_id) as detected_geographic_cases,
-    ROUND(COUNT(cgd.user_id)::FLOAT / NULLIF(COUNT(*), 0) * 100, 1) as geographic_detection_rate
+    ROUND((COUNT(cgd.user_id)::NUMERIC / NULLIF(COUNT(*), 0) * 100)::NUMERIC, 1) as geographic_detection_rate
   FROM known_geographic_fraud kgf
   LEFT JOIN candidate_geographic_detections cgd ON kgf.user_id = cgd.user_id
 )

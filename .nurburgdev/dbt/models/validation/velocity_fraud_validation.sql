@@ -18,7 +18,7 @@ validation_metrics AS (
   SELECT 
     COUNT(*) as total_velocity_cases,
     COUNT(cvd.user_id) as detected_velocity_cases,
-    ROUND(COUNT(cvd.user_id)::FLOAT / NULLIF(COUNT(*), 0) * 100, 1) as velocity_detection_rate
+    ROUND((COUNT(cvd.user_id)::NUMERIC / NULLIF(COUNT(*), 0) * 100)::NUMERIC, 1) as velocity_detection_rate
   FROM known_velocity_fraud kvf
   LEFT JOIN candidate_velocity_detections cvd ON kvf.user_id = cvd.user_id
 )
